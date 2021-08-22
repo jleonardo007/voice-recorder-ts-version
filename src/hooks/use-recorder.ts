@@ -51,15 +51,14 @@ export default function useRecorder() {
   });
 
   useEffect(() => {
-    if (recorderState.mediaStream)
-      setRecorderState((prevState) => {
-        if (prevState.mediaStream)
-          return {
-            ...prevState,
-            mediaRecorder: new MediaRecorder(prevState.mediaStream),
-          };
-        else return prevState;
-      });
+    setRecorderState((prevState) => {
+      if (prevState.mediaStream)
+        return {
+          ...prevState,
+          mediaRecorder: new MediaRecorder(prevState.mediaStream),
+        };
+      else return prevState;
+    });
   }, [recorderState.mediaStream]);
 
   useEffect(() => {
