@@ -1714,6 +1714,11 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
+"@types/dom-mediacapture-record@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@types/dom-mediacapture-record/-/dom-mediacapture-record-1.0.10.tgz#3b96ead62f89b01eb2b9d5d080f29b2373f2493c"
+  integrity sha512-8O84hHuVhMMLHLybf3y9SQpNcnQSuzVzcJaUNq9+4Ovb7fodS0aQXep4hyMtxd6fe/dyszbHFjFqtyawf4y46A==
+
 "@types/eslint@^7.2.6":
   version "7.2.6"
   resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-7.2.6.tgz#5e9aff555a975596c03a98b59ecd103decc70c3c"
